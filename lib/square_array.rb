@@ -20,6 +20,11 @@ def
   sqd_array = Array.new
   
   
+  # For Verification of Input
+  p array
+  puts
+  
+  
   while count < (array.length)
     # -X-  (array.length-1)
   
