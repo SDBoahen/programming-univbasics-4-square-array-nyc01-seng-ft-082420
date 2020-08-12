@@ -21,6 +21,7 @@ def
   
   
   # For Verification of Input
+  puts
   p array
   puts
   
