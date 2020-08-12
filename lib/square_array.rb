@@ -17,19 +17,30 @@ def
   
   count = 0
   
-  sq_array = Array.new
+  sqd_array = Array.new
   
   
-  while count < (array.length - 1)
+  while count < (array.length)
+    # -X-  (array.length-1)
   
-    sq_array[count] = array[count] * array[count]
+    sqd_array[count] = array[count] * array[count]
   
-    p square_array
+    p "inLoop :: #{sqd_array}" 
+    #p sqd_array
   
   
-    count +=
+    count +=1
   
   end
+
+  puts
+  #sqd_array
+  p sqd_array
+  puts
+
+  puts sqd_array
+  
+  return sqd_array
   
   
 end
@@ -38,3 +49,5 @@ end
 
 square_array(lab_nums)
 
+    # p array
+    # p sqd_array 
